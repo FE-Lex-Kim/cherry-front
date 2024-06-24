@@ -18,6 +18,7 @@ import MobileSort from '../mobileSort/MobileSort';
 
 import { useQuery } from 'react-query';
 import { axiosInstance } from '../../../api';
+import { Link } from 'react-router-dom';
 
 const Hotsix = () => {
   const [isCategoryActive, setIsCategoryActive] = useState('프론트엔드');
