@@ -89,7 +89,8 @@ export const parameters = {
   },
   options: {
     storySort: {
-      method: 'alphabetical', // <--- 추가된 코드
+      // method: 'alphabetical', // <--- 추가된 코드
+      order: ['templates', 'molecules'],
     },
   },
   viewport: {
